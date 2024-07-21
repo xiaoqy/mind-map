@@ -5,34 +5,6 @@
         <span class="logo"></span>
         <span class="title">SimpleMindMap</span>
       </div>
-      <div class="nav">
-        <div
-          class="navItem"
-          @click="jumpTop"
-          :class="{
-            active: activeTab === 'home'
-          }"
-        >
-          首页
-        </div>
-        <div class="navItem" @click="useOnline">在线使用</div>
-        <div
-          class="navItem"
-          @click="jumpClient"
-          :class="{
-            active: activeTab === 'client'
-          }"
-        >
-          客户端
-        </div>
-        <div class="navItem" @click="jumpHelp">使用文档</div>
-        <div class="navItem" @click="jumpDoc">开发文档</div>
-        <div class="navItem">
-          <a href="https://github.com/wanglin2/mind-map" target="_blank"
-            >Github</a
-          >
-        </div>
-      </div>
     </div>
   </div>
 </template>
